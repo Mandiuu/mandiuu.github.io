@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+HTML <!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Carla's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Carla Mandiola's portfolio showcasing data journalism, 3D modeling, and storytelling through interactive visuals.">
+	
+		<!-- Main Stylesheets -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript>
+			<link rel="stylesheet" href="assets/css/noscript.css" />
+		</noscript>
+		
+		<!-- Font and Additional Stylesheets -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/model-styles.css">
+		<link rel="stylesheet" href="assets/css/scrolly-styles.css">
+	
+		<!-- Scripts -->
+		<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.2.0/scrollama.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+		<script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+	</head>
+	
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Hola<br />
+						</h1>
+						<p>I'm Carla Mandiola, a Chilean data journalist.</p>
+					<p>And this is a deer I saw in Nara, Japan.</p>
+
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo">Isn't it cute?</a>
+				</header>
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul class="links">
+						<li class="active"><a href="index.html">In English</a></li>
+						<li><a href="generic.html">En español</a></li>
+						<li><a href="elements.html">And more</a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://github.com/mandiuu" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.linkedin.com/in/carla-mandiola/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+					</ul>
+				</nav>
+
+			<!-- Main -->
+				<div id="main">
+
+					<!-- Featured Post -->
+					<article class="post featured" style="padding: 10px 0; margin-bottom: 20px; max-height: 650px;">
+						<header class="major" style="margin-top: 30px; margin-bottom: 5px;"> <!-- Added top margin -->
+							<h2>I'm good with 3D models</h2>
+							<p>Not only because my mom said it, I was born with the talent and patience to do them.</p>
+						</header>
+					
+					
+						<div class="full-width" style="margin-top: -70px;"> <!-- Negative margin to reduce space -->
+							<!-- Loads <model-viewer> for browsers: -->
+							<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+							<style>
+								.full-width model-viewer {
+									max-width: 50%; 
+									height: auto; 
+									margin: 0 auto;
+								}
+							</style>
+					
+							<!-- 3D Model Viewer -->
+							<model-viewer 
+							src="4_2_2024 (5).glb" 
+							ar 
+							ar-modes="webxr scene-viewer quick-look" 
+							camera-controls 
+							tone-mapping="neutral" 
+							shadow-intensity="1" 
+							min-camera-orbit="auto auto 0.3072m" 
+							min-field-of-view="30deg"
+							camera-orbit="-101.8deg 24.51deg 2.799m" 
+							field-of-view="29.92deg" 
+							style="width: 100%; height: 300px;" 
+							camera-controls>
+							
+								<div class="progress-bar hide" slot="progress-bar">
+									<div class="update-bar"></div>
+								</div>
+								
+								<div id="ar-prompt">
+									<img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+								</div>
+					
+							
+						
+							<div class="progress-bar hide" slot="progress-bar">
+								<div class="update-bar"></div>
+							</div>
+							
+							<div id="ar-prompt"></div>
+						</model-viewer>
+
+								</div>
+					
+					</article>
+							
+								<!-- 3d model stuffgoes before here -->
+							
+								<h2 class="data-journalism-title">DATA + JOURNALISM</h2>
+								
+
+					<!-- Posts -->
+					
+						<section class="posts">
+							<article>
+								<header>
+									<h2><a href="https://mandiuu.github.io/summons-map/">Yelling, Cursing, Drinking: <br />Police Crack Down
+										<br /></a></h2>
+								</header>
+								<a href="https://mandiuu.github.io/summons-map/" class="image fit"><img src="images/summ.png" alt="" /></a>
+								<p>Interactive map and analysis of 10 years of NYPD crime data that reveals a significant disparity in the distribution of quality of life summonses.
+									 While some areas have seen a tenfold or more increase, others have seen minimal changes.
+									 </p>
+								<ul class="actions special">
+									<li><a href="https://mandiuu.github.io/summons-map/" class="button">Full Story</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://mandiuu.github.io/subway-surfing/">Why are people still on top of the subway?
+									</a></h2>
+								</header>
+								<a href="https://mandiuu.github.io/subway-surfing/" class="image fit"><img src="images/subwaysurfing.png" alt="" /></a>
+								<p>
+									With the use of FOIA I got acces to the subway surfing incidents, 
+									fatalities, and safety measures taken by the authorities over the past decade.
+								</p>
+								<ul class="actions special">
+									<li><a href="https://mandiuu.github.io/subway-surfing/" class="button">Full Story</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://mandiuu.github.io/toystory/">What's better than toys? <br /> 3D models of toys
+									</a></h2>
+								</header>
+								<a href="https://mandiuu.github.io/toystory/" class="image fit"><img src="images/toystory.png" alt="" /></a>
+								<p>A toy story: 3d models of toys in New York. Using Polycam, and editing with modelviewer.dev, I created 3D models of toys from an Italian baby that
+									started to live in New York. 
+								</p>
+								<ul class="actions special">
+									<li><a href="https://mandiuu.github.io/toystory/" class="button">Full Story</a></li>
+								</ul>
+							</article>
+							<article> 
+								<header>
+									<h2><a href="https://mandiuu.github.io/happiness/">What makes us happy: <br /> mapping the happines index</a></h2>
+								</header>
+								<a href="https://mandiuu.github.io/happiness/" class="image fit">
+									<img src="images/happy2.png" alt="Happy" />
+								</a>
+								<p>If someone asks you today if you are happy, your answer may be different tomorrow. I visualized maps showing what happiness looks like in the world.</p>
+								<ul class="actions special">
+									<li><a href="https://mandiuu.github.io/happiness/" class="button">Full Story</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://mandiuu.github.io/Citi_Bike/">Where are the<br />
+										bikes in NYC</a></h2>
+								</header>
+								<a href="https://mandiuu.github.io/Citi_Bike/" class="image fit"><img src="images/bike.png" alt="" /></a>
+								<p>Finding a Citi Bike in New York City is not always easy. 
+									 The only borough with stations in its total area is Manhattan, and Staten Island is not included in the system. 
+									 And of course, that means that there are limits of where you are going to go in the city.</p>
+								<ul class="actions special">
+									<li><a href="https://mandiuu.github.io/Citi_Bike/" class="button">Full Story</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://mandiuu.github.io/Taylor-Biden/">Swifties support is bigger than you thought
+										</a></h2>
+								</header>
+								<a href="https://mandiuu.github.io/Taylor-Biden/" class="image fit"><img src="images/taylor.png" alt="" /></a>
+								<p>What happens when the biggest pop star supports a candidate? People give money. "Cause darling, I'm a nightmare dressed like a daydream."
+								</p>
+								<ul class="actions special">
+									<li><a href="https://mandiuu.github.io/Taylor-Biden/" class="button">Full Story</a></li>
+								</ul>
+							</article>
+						</section>
+
+		
+			<!-- Footer -->
+				<footer id="footer">
+					
+					<section class="split contact">
+						<section class="alt">
+							<h3>Let's talk</h3>
+							<p>cm4389@columbia.edu<br />
+					</p>
+						</section>
+				
+					</footer>
+					
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
+</html>
